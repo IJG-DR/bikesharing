@@ -21,7 +21,7 @@ Our analysis is based on data made publicly available online by the Citibike pro
 
 Our analysis is presented in an accompanying *Tableau* public file, with a series of relevant worksheets, dashboards, and a story.
 
-The *Tableau* file is available on this link [link to dashboard](https://public.tableau.com/app/profile/ignacio.guerra/viz/NYCCitibikeChallenge_16368699626060/NYCCitibikes?publish=yes "NYC Citibike Challenge").
+The *Tableau* file is available on this link [NYC Citibike Challenge](https://public.tableau.com/app/profile/ignacio.guerra/viz/NYCCitibikeChallenge_16368699626060/NYCCitibikes?publish=yes "NYC Citibike Challenge").
 
 
 ## Results
