@@ -4,9 +4,11 @@
 
 Inspired in the NYC *Citibike* bike-sharing program, Kate and I are proposing the launch of a similar program in our hometown of Des Moines, Iowa. As interested angel investors, we would like to share with you our key findings on the *Citibike* program data, in order to better understand how a similar program can be successful in Des Moines.
 
-Des Moines has a relatively flat geography, with plenty of riding trails. More importantly, it is below tha national average in commute times (on average between 5 - 25 minutes), yet only 0.2% of commuters are using bikes as a mode of transportation, which is one-third the national average (source: https://www.bestplaces.net/transportation/metro/iowa/des_moines-west_des_moines). 
+Des Moines has a relatively flat geography, with plenty of riding trails. More importantly, it is below the national average in commute times (on average between 5 - 25 minutes), yet only 0.2% of commuters are using bikes as a mode of transportation, which is one-third the national average (source: https://www.bestplaces.net/transportation/metro/iowa/des_moines-west_des_moines). 
 
-![Commuter data](Resources/images/des_moines_commute_stats.png)   ![Commute by mode](Resources/images/des_moines_commute_type.png)
+![Commuter data](Resources/images/des_moines_commute_stats.png)
+
+![Commute by mode](Resources/images/des_moines_commute_type.png)
 
 Equally important, the average population age in Des Moines is relatively young, with an average age of 33 years according to the latest U.S. Census.
 
@@ -15,9 +17,9 @@ As you will appreciate, the Citibike program's success is likely based on a subs
 
 ### Methodology
 
-Our analysis is based on data made publicly available online by the Citibike program (*https://ride.citibikenyc.com/system-data*). We chose the dataset for the month of August, 2019. This data was imported into a *jupyter notebook*, where we used the *pandas* library to add *datetime* format to ride durations in order to better analyze the data. We retained the integer format of the ride durations (expressed in seconds), so that we can use it for additional analysis.
+Our analysis is based on data made publicly available online by the Citibike program (*https://ride.citibikenyc.com/system-data*). We chose the dataset for the month of August, 2019. This data was imported into a *jupyter notebook*, where we used the *pandas* library to add *datetime* format to ride durations, to better analyze the data. We retained the integer format of the ride durations (expressed in seconds), so that we can use it for additional analysis.
 
-Our analysis is presented in an accompanying *Tableau* public file, with a series of relevant worksheets, dashboards and a story.
+Our analysis is presented in an accompanying *Tableau* public file, with a series of relevant worksheets, dashboards, and a story.
 
 The *Tableau* file is available on this link [link to dashboard](https://public.tableau.com/app/profile/ignacio.guerra/viz/NYCCitibikeChallenge_16368699626060/NYCCitibikes?publish=yes "NYC Citibike Challenge").
 
@@ -36,7 +38,7 @@ As can be observed from the graph, trip durations tend to last less than an hour
 
 #### Checkout Times by Gender
 
-Average trip duration is roughly 5 to  10 minutes, which suggests these cover relatively short distances. This remains the same for male as well as  female riders.
+Average trip duration is roughly 5 to 10 minutes, which suggests these cover relatively short distances. This remains the same for male as well as female riders.
 
 ![checkout_times_by_gender](Resources/images/checkout_times_by_gender.png)
 
@@ -84,7 +86,7 @@ The typical Citibike user tends to be young adult males, followed by young adult
 
 ### Challenges
 
-The project presents some challenges, however we are confident that these can be overcomed through focus on operational logistics.
+The project presents some challenges, however we are confident that these can be overcome through focus on operational logistics.
 
 #### Map Dashboard - Start and End Locations with Filters
 
@@ -94,16 +96,16 @@ Top 20 end-station information suggests that, on any given Thursday 8:00am trip,
 
 #### Bike Utilization
 
-In addition to this logistical challenge, individual bike utilization suggests some bikes are overextendend and will likely require more maintenance. With today's remote sensing technology, this can easily be monitored so that these bikes are timely relocated to stations with lower utilization.
+In addition to this logistical challenge, individual bike utilization suggests some bikes are overextended and will likely require more maintenance. With today's remote sensing technology, this can easily be monitored so that these bikes are timely relocated to stations with lower utilization.
 
 ![bike_utilization](Resources/images/bike_utilization.png)
 
 
 ## Summary
 
-In summary, we feel very confident that a bike riding program can be successful in Des Moines. The data validates that bikes mostly used for short duration commute to work among young adults. The preference of these users for a subscription plan provides an additional level of stability for the program as income streams are recurring and predictable.
+In summary, we feel very confident that a bike riding program can be successful in Des Moines. The data validates that bikes are mostly used for short duration commutes to work by young adults. The preference of these users for a subscription plan provides an additional level of stability for the program as income streams are recurring and predictable.
 
-We also added two worksheets with filters for user type, gender and weekday, with a convenient slider for animating a map to show, in one case start station transit volumes, and in the other case end station transit volumes, during the hours of the day. This visualization tool can provide usefull insights on utilization paterns for the program.
+We also added two visualization worksheets with filters for user type, gender and weekday, with a convenient slider for animating a map to show, in one case start station transit volumes, and in the other case end station transit volumes, during the hours of the day. This visualization tool can provide useful insights on utilization patterns for the program.
 
 ![map_with_animation_slider](Resources/images/map_with_animation_slider.png)
 
