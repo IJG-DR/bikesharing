@@ -6,7 +6,7 @@ Inspired in the NYC *Citibike* bike-sharing program, Kate and I are proposing th
 
 Des Moine has a relatively flat geography, with plenty of riding trails. More importantly, it is below tha national average in commute times (on average between 5 - 25 minutes), yet only 0.2% of commuters are using bikes as a mode of transportation, which is one-third the national average (source: https://www.bestplaces.net/transportation/metro/iowa/des_moines-west_des_moines). 
 
-![Commuter data](Resources/images/des_moines_commute_data.png)
+![Commuter data](Resources/images/des_moines_commute_stats.png)
 
 ![Commute by mode](Resources/images/des_moines_commute_type.png)
 
@@ -75,7 +75,7 @@ Male subscribers tend to be the main customers for Citibikes, and their use tend
 
 The typical Citibike user tends to be young adult males, followed by young adult females. Most users are subscribers. Non-subscribers (customers) tend to be younger and equally likely to be male or female and tend to make trips that are on average twice in duration as subscribers.
 
-![trips_by_age_and_usertype](Resources/images/trips_by_age_and_usertype)
+![trips_by_age_and_usertype](Resources/images/trips_by_age_and_usertype.png)
 
 ### Challenges
 
